@@ -16,6 +16,10 @@ public class MyJavaPractice {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        int a=20;
+        
+        System.out.println(a);
+        
     }
     
 }
