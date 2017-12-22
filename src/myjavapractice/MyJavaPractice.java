@@ -10,16 +10,18 @@ package myjavapractice;
  * @author Santunu23
  */
 public class MyJavaPractice {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        int a=20;
-        
-        System.out.println(a);
-        
+    
+    public static void main(String[] args){
+       System.out.println(HelloString("Zabra"));
     }
+    
+     public static String HelloString(String name){
+         if(name.length()<=1){
+         return name;
+         }else{
+         return name.charAt(0)+"$"+HelloString(name.substring(1));
+         }
+     }
+   
     
 }
