@@ -1,6 +1,7 @@
 package Eleminatecodefear;
 
 import java.util.ArrayList;
+import java.util.LinkedHashSet;
 
 /**
  *
@@ -18,21 +19,23 @@ import java.util.ArrayList;
  */
  
 public class Assignment08 {
-    public static void main(String[] args){
-//        System.out.println(sumUnique(1,2,3));
-//        System.out.println(sumUnique(3,2,3)); //2
-//        System.out.println(sumUnique(3,3,3));
-
-        int[] myArray=new int[]{3,2,3};
-        for(int i=0;i<myArray.length;i++){
-        ArrayList myarraylist=new ArrayList();
-        myarraylist.add(myArray[i]);
-        System.out.println(myarraylist);
+    public static Integer sumUnique(int a,int b,int c){
+           int[] myArray=new int[]{a,b,c};
+           int sum=0;
+           
+            LinkedHashSet<Integer> myArrayList=new LinkedHashSet<Integer>();
+           for(int i=0;i<myArray.length;i++){
+            myArrayList.add(myArray[i]);
+           }
+           for(int k:myArrayList){
+           sum+=k;
+           }
+       return sum;
     }
     
-//    public static int sumUnique(int a,int b,int c){
-//        return 0;
-//    }
-    
-}
+    public static void main(String[] args){
+        System.out.println(sumUnique(1,2,3));
+        System.out.println(sumUnique(3,2,3)); //2
+        System.out.println(sumUnique(3,3,3));
+    }
 }
