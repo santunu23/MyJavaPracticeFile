@@ -36,7 +36,6 @@ public class Numberpattern {
 //           System.out.println("");
 //       }
 
-        
    /* Pattern 2)
                   1
                   2 2
@@ -45,7 +44,6 @@ public class Numberpattern {
                   5 5 5 5 5
                   6 6 6 6 6 6
                   7 7 7 7 7 7 7
-
 */
    
 //     for(int i=1;i<=7;i++){
@@ -69,7 +67,6 @@ public class Numberpattern {
                  1 2 3
                  1 2
                  1
-
 */
 
 //            for(int i=1;i<=7;i++){
@@ -79,12 +76,12 @@ public class Numberpattern {
 //                System.out.println("");
 //            }
 //            for(int i=6;i>=1;i--){
-
-        //            for(int j=1;j<=i;j++){
+//            for(int j=1;j<=i;j++){
 //                System.out.print(j);
-//            }//                System.out.println("");
 //            }
-          
+//                System.out.println("");
+//            }
+           
  
        /*
         Pattern 5 :
@@ -96,24 +93,34 @@ public class Numberpattern {
                     7 6
                     7
 */
-for(int i=1;i<=7;i++){
-  for(int j=7;j>=i;j--){
-      System.out.print(j);
-  }
-    System.out.println();
-}
-        /*
+       
+       for(int i=1;i<=7;i++){
+           for(int j=7;j>=i;j--){
+               System.out.print(j);
+           }
+           System.out.println();
+       }
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       /*
           1
           12
           123
           1234
        */
- for(int i=1;i<=4;i++){
-     for(int j=1;j<=i;j++){
-         System.out.print(j);
-     }
-    System.out.println();
-}    
+//   for(int i=1;i<=4;i++){
+//     for(int j=1;j<=i;j++){
+//         System.out.print(j);
+//     }
+//       System.out.println("");
+//   }
        
 /*
    4321
@@ -121,43 +128,18 @@ for(int i=1;i<=7;i++){
    43
    4
 */
- for(int i=1;i<=4;i++){
-for(int j=4;j>=i;j--){
-    System.out.print(j);
-}
-    System.out.println();
-}
-        
-        
-        
-        
-        
- Pattern 
-     1
-     01
-     010
-     1010
-     10101
-     
-     
-     int k=0;
-        for(int i=1;i<=5;i++){
-            for(int j=1;j<=i;j++){
-              k++;
-               System.out.print(k%2);
-             
-            }
-            System.out.println("");
-        }
-     
-     
-     
-     
+//for(int i=0;i<=4;i++){
+//    for(int j=4;j>i;j--){
+//        System.out.print(j);
+//    }
+//System.out.println("");
+//}
+ 
    /*
      *..
      **.
      ***
-   *
+   */
     
 //     for(int i=1;i<=3;i++){
 //         for(int j=1;j<=i;j++){
@@ -166,7 +148,7 @@ for(int j=4;j>=i;j--){
 //         System.out.println("");
 //     }
 
-        /
+        /*
          ***
          .**
          ..*
@@ -211,35 +193,46 @@ for(int j=4;j>=i;j--){
               121
                1
            */
-//           for(int i=3;i>=1;i--){
-//               for(int j=1;j<=i+1;j++){
-//                   System.out.print(j);
-//               }
-//               System.out.println(i-1);
-//           }
+//    for(int i=1;i<=3;i++){
+//        if(i==1){
+//        for(int j=1;j<=3;j++){
+//            System.out.print(j);
+//        }
+//        }else if(i==2){
+//          for(int j=1;j<2;j++){
+//            System.out.print(j);
+//        }
+//        }else if(i==3){
+//        System.out.println(1);
+//        }
+//        
+//        if(i==1||i==2){
+//        System.out.println(21);
+//    }
+//    }
 /*
   Find out prime number 
 
 */
 
-Scanner sc=new Scanner(System.in);
-        System.out.println("Enter your number ");
-int a=sc.nextInt();
-for(int i=1;i<=10;i++){
-  
-        if(a%i==0){
-            System.out.println("This is not prime number");
-            break;
-        }else if(a%a==0){
-            System.out.println("This is a prime number");
-            break;
-        } 
-        else{
-            System.out.println("This is prime number");
-           break;
-        }
-  
-}
+//Scanner sc=new Scanner(System.in);
+//        System.out.println("Enter your number ");
+//int a=sc.nextInt();
+//for(int i=1;i<=10;i++){
+//  
+//        if(a%i==0){
+//            System.out.println("This is not prime number");
+//            break;
+//        }else if(a%a==0){
+//            System.out.println("This is a prime number");
+//            break;
+//        } 
+//        else{
+//            System.out.println("This is prime number");
+//           break;
+//        }
+//  
+//}
     }
     
 }
