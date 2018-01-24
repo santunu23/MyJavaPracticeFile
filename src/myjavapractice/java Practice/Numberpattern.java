@@ -67,6 +67,7 @@ public class Numberpattern {
                  1 2 3
                  1 2
                  1
+
 */
 
 //            for(int i=1;i<=7;i++){
@@ -76,12 +77,13 @@ public class Numberpattern {
 //                System.out.println("");
 //            }
 //            for(int i=6;i>=1;i--){
-//            for(int j=1;j<=i;j++){
+
+        //            for(int j=1;j<=i;j++){
 //                System.out.print(j);
 //            }
 //                System.out.println("");
 //            }
-           
+          
  
        /*
         Pattern 5 :
@@ -98,7 +100,7 @@ public class Numberpattern {
           12
           123
           1234
-       */
+p       */
 //       for(int i=7;i>=1;i--){
 //       for(int j=i;j>=1;j++){
 //           System.out.print(j);
@@ -118,7 +120,27 @@ public class Numberpattern {
 //        System.out.print(j);
 //System.out.println("");
 //}
- 
+ Pattern 
+     1
+     01
+     010
+     1010
+     10101
+     
+     
+     int k=0;
+        for(int i=1;i<=5;i++){
+            for(int j=1;j<=i;j++){
+              k++;
+               System.out.print(k%2);
+              
+            }
+            System.out.println("");
+        }
+     
+     
+     
+     
    /*
      *..
      **.
