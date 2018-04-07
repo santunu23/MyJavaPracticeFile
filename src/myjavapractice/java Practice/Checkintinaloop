@@ -1,0 +1,11 @@
+//This program check a specific integer in a loop.Let's think,we run a loop from 1 to 20 so there are two 9(9,19) into the loop.
+//the program will help us to find that integer.
+
+   int count=0;
+        for(int i=1;i<=20;i++){
+            String a=String.valueOf(i);
+            if(a.contains("9")){
+                count++;
+            }
+        }
+        System.out.println(count);
