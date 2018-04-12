@@ -65,6 +65,41 @@ public class ImageSolution {
 //          }
 //        }
 //    }
+       /*Write a program that asks the user to enter a number n and display the first n odd number example if n=5,the first 5 even numbers
+    are 1,3,5,7,9*/
+    Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int count=0;
+        for(int i=1;i<20;i+=2){
+            if(count>=a){
+                break;
+            }
+            System.out.println(i);
+            count++;
+        }
+    
+    /*Write a program that asks the user to enter a number n and display the first n even number example if n=5,the first 5 even numbers
+    are 2,4,6,8,10*/
+    
+      Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int count=0;
+        for(int i=2;i<=20;i+=2){
+            if(count>=a){
+                break;
+            }
+            System.out.println(i);
+            count++;
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     /*
       5) Write a program which is help you to sort out the factorial number of the user input.
