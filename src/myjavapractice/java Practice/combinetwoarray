@@ -1,0 +1,5 @@
+ int[] myArray=new int[]{1,2,3,4,5};
+       int[] myArray2=new int[]{2,3};
+       int[] mynewArray=new int[myArray.length+myArray2.length];
+       System.arraycopy(myArray,0,mynewArray,0,myArray.length);
+       System.arraycopy(myArray2,0,mynewArray,myArray.length,myArray2.length);
